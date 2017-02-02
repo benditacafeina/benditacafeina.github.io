@@ -1,19 +1,39 @@
 body {
-  overflow: hidden;
+  /*font-family: 'Calibri';*/
   background: url('../images/wood_background.jpg') no-repeat;
   background-size: auto;
   color: #FFFFFF;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 .logo {
   width: 250px;
 }
 
+i.fa {
+  color: #000000;
+}
+
+a {
+  text-decoration: none;
+}
+
+.footer {
+  padding: 5px;
+  color: #000000;
+  font-size: 12px;
+}
+
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
   .logo {
     width: 300px;
+  }
+
+  .map {
+    width: 400px;
+    height: 250px;
   }
 }
 
@@ -22,11 +42,21 @@ body {
   .logo {
     width: 400px;
   }
+
+  .map {
+    width: 500px;
+    height: 350px;
+  }
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
   .logo {
     width: 500px;
+  }
+
+  .map {
+    width: 600px;
+    height: 450px;
   }
 }
